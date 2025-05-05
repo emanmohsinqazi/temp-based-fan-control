@@ -1,0 +1,40 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    padding: 20px;
+    text-align: center;
+    height: 100vh; /* Ensure it takes the full height of the screen */
+  }
+  
+  .dashboard-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px; /* Adjusted margin for a little more space above */
+    margin-bottom: 10px; /* Adds space below the heading */
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds space between buttons */
+    margin-top: 30px; /* Adjusted to bring buttons up */
+  }
+  
+  .btn-go-to-chart, .btn-go-to-prediction, .btn-go-to-manualpredict {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 25px; /* Slightly larger padding for better spacing */
+    font-size: 18px; /* Increased font size for better readability */
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 250px; /* Make the buttons a consistent width */
+  }
+  
+  .btn-go-to-chart:hover, .btn-go-to-prediction:hover, .btn-go-to-manualpredict:hover {
+    background-color: #45a049;
+  }
+  

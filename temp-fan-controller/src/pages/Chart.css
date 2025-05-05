@@ -1,0 +1,47 @@
+.chart-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 20px;
+    background-color: #f4f6f8; /* Light gray background */
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clear, modern font */
+  }
+  
+  .chart-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #1a1a1a; /* Dark gray text for better readability */
+  }
+  
+  .chart-container {
+    width: 100%;
+    max-width: 900px;
+    background: #ffffff; /* White background for containers */
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 16px; /* Rounded corners for a softer appearance */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .chart-container:hover {
+    transform: scale(1.02); /* Slightly larger on hover for interactivity */
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1); /* Increased shadow for hover effect */
+  }
+  
+  /* Responsive adjustment for smaller screens */
+  @media (max-width: 768px) {
+    .chart-page {
+      padding: 40px 10px; /* Reduced padding on smaller screens */
+    }
+    
+    .chart-container {
+      padding: 20px; /* Reduced padding inside containers on smaller screens */
+      margin-bottom: 20px; /* Reduced margin for containers */
+    }
+  }
+  
